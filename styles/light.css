@@ -69,15 +69,6 @@
     color: var(--text-color);
   }
 
-  .link {
-    color: var(--text-color);
-    text-shadow: 2px 2px 0px var(--accent-color);
-  }
-  
-  .link:focus-visible {
-    border: 1px solid var(--text-color);
-  }
-
   .footer__title {
     color: var(--title-color);
     text-shadow: 2px 2px 0px var(--accent-color);
@@ -128,20 +119,7 @@
   color: var(--text-color);
 }
 
-.theme-light .link {
-  color: var(---text-color);
-  text-shadow: 1px 1px 0px var(--accent-color);
-}
-
-.themt-light .link:focus-visible {
-  border: 1px solid var(--text-color);
-}
-
 .theme-light .footer__title {
   color: var(--title-color);
   text-shadow: 2px 2px 0px var(--accent-color);
-}
-
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
 }

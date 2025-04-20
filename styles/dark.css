@@ -13,7 +13,6 @@
   --accent-color: #ff0070;
   --title-color: #DB00FF;
   --text-color: #f1b2ce;
-  --link-color: #ff8dcb;
   --cover-image: url('../images/cover-image-dark.png');
 }
 
@@ -59,15 +58,6 @@
 
 .theme-dark .main__title {
   color: var(--accent-color);
-}
-
-.theme-dark .link {
-  color: var(--link-color);
-  text-shadow: 1px 1px 0px var(--accent-color);
-}
-
-.theme-dark .link:focus-visible {
-  border: 1px solid var(--link-color);
 }
 
 .theme-dark .footer__title {

@@ -196,7 +196,6 @@
 
 .link {
   text-decoration: none;
-  color: var(--link-color);
   text-shadow: 1px 1px 0px var(--accent-color);
 }
 
@@ -209,7 +208,7 @@
 }
 
 .link:focus-visible {
-  border: 1px solid var(--link-color);
+  border: 1px solid var(--text-color);
 }
 
 .section__gallery {
