@@ -16,11 +16,6 @@
   --cover-image: url('../images/cover-image-dark.png');
 }
 
-.theme-dark .page {
-  background-color: var(--main-bg-color);
-  color: var(--text-color);
-}
-
 .theme-dark .decorated-zone::after {
   border-top: 1px solid var(--accent-color);
   border-right: 1px solid var(--accent-color);
