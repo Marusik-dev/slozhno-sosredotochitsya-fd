@@ -102,7 +102,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--accent-color);
+  border: 1px solid rgba(255, 0, 112, 0.40);
 }
 
 .header__theme-menu-button:focus {
@@ -196,11 +196,11 @@
 
 .link {
   text-decoration: none;
-  text-shadow: 1px 1px 0px var(--accent-color);
+  text-shadow: 2px 2px 0px var(--accent-color);
 }
 
 .link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--text-color);
 }
 
 .link:focus {
