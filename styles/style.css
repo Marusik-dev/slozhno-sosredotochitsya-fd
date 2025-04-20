@@ -368,6 +368,7 @@
 
     .header__theme-menu-list {
       flex-direction: row;
+      align-items: flex-start;
       padding-left: 30px;
     }
 
