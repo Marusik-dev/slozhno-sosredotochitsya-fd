@@ -56,7 +56,7 @@
   background-color: var(--accent-color);
 }
 
-.theme-dark .main__title {
+.theme-dark .section__title {
   color: var(--accent-color);
 }
 

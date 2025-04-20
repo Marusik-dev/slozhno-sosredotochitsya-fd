@@ -65,7 +65,7 @@
     background-color: var(--accent-color);
   }
 
-  .main__title {
+  .section__title {
     color: var(--text-color);
   }
 
@@ -115,7 +115,7 @@
   background-color: var(--accent-color);
 }
 
-.theme-light .main__title {
+.theme-light .section__title {
   color: var(--text-color);
 }
 
