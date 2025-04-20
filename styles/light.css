@@ -25,6 +25,11 @@
     --cover-image: url('../images/cover-image-light.png');
   }
 
+  .page {
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+  }
+
   .decorated-zone::after {
     border-top: 1px solid var(--text-color);
     border-right: 1px solid var(--text-color);
@@ -73,6 +78,11 @@
     color: var(--title-color);
     text-shadow: 2px 2px 0px var(--accent-color);
   }
+}
+
+.theme-light .page {
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
 }
 
 .theme-light .decorated-zone::after {
